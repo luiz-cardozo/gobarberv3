@@ -105,3 +105,10 @@ dist
 
 #dist forlder
 dist
+
+#temp files
+tmp/*
+!tmp/.gitkeep
+
+# ORM
+ormconfig.json
