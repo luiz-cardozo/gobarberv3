@@ -25,6 +25,8 @@ usersRouter.post(
   usersController.create,
 );
 
+usersRouter.put('/profile', ensureAuthenticated, usersController.update);
+
 usersRouter.patch(
   '/avatar',
   ensureAuthenticated,
